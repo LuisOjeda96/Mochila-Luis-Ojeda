@@ -1,0 +1,7 @@
+La ip privada:10.0.2.15
+La ip Publica: 181.199.44.30
+La direccion mac:08:00:27:0c:77:6d
+¿Es diferente la ip pubica y privada de nuesta maquina host?
+Si hay una diferencia entre la ip publica y la privada. La ip publica es una direccion asignada a un dispositivo en una red publica. Esta direccion se utliza para identificas y comunicarse con el dispositivo en la red global.
+Por otro lado la direccion privada es una direccion asiganda a un dispositivo dentro de una red local, como una red domestica o de oficina; se utiliza para identificar y comunicarse entre otros dispositivos de la red local
+
