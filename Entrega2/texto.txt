@@ -1,0 +1,27 @@
+¿Que es un usuario root?
+ el sistema operativo Linux, el usuario "root" es el nombre convencional del superusuario o administrador del sistema. El usuario root tiene privilegios de acceso y control total sobre el sistema operativo, lo que le permite realizar tareas y acciones que otros usuarios normales no pueden hacer.
+
+¿Por que ubuntu no me deja establecer la contraseña durante la instalacion?
+Durante la instalación de Ubuntu, se le pedirá que configure una contraseña para su propio usuario, el cual tendrá permisos administrativos y podrá utilizar el comando "sudo" para realizar acciones que requieran privilegios de superusuario.
+
+Una vez instalado Ubuntu, puede utilizar el comando "sudo" para ejecutar tareas de administración y realizar cambios en el sistema, ingresando su propia contraseña de usuario cuando se le solicite.
+
+Esta forma de administración basada en "sudo" es una práctica común en distribuciones como Ubuntu, ya que ayuda a aumentar la seguridad del sistema al limitar el acceso directo al usuario root y realizar acciones administrativas solo cuando sea necesario, utilizando el mecanismo de autenticación del usuario principal.
+
+Si desea establecer una contraseña para el usuario root directamente, puede hacerlo utilizando el comando "sudo passwd root" en una terminal después de la instalación. Sin embargo, se recomienda tener precaución al habilitar el acceso directo al usuario root y utilizarlo solo cuando sea estrictamente necesario.
+
+¿cuales son los procesos tipicos de linux?
+    Init: Es el primer proceso que se inicia después de que el sistema operativo arranca. Es responsable de inicializar el sistema y ejecutar otros procesos.
+
+    Systemd: Es un sistema de inicio y administración de servicios utilizado en muchas distribuciones de Linux modernas. Systemd controla el inicio y cierre de los servicios del sistema, gestiona los demonios en ejecución y proporciona características como registro, seguimiento de eventos y control de servicios.
+
+    Bash: Es el shell predeterminado en la mayoría de las distribuciones de Linux. Es un intérprete de comandos que permite a los usuarios interactuar con el sistema operativo mediante la ejecución de comandos y scripts.
+
+    Network Manager: Es un proceso que administra las conexiones de red, como Wi-Fi, Ethernet y VPN. Proporciona herramientas para configurar y administrar la conectividad de red en el sistema.
+
+    Xorg o Wayland: Son servidores de visualización utilizados en los entornos de escritorio de Linux. Controlan la interacción entre las aplicaciones y el hardware de gráficos, permitiendo la representación gráfica en la pantalla y el manejo de eventos de entrada.
+
+    Cron: Es un servicio que permite programar y automatizar la ejecución de comandos o scripts en momentos específicos. Se utiliza para realizar tareas recurrentes, como copias de seguridad, actualizaciones automáticas y otras tareas programadas.
+
+    Apache o Nginx: Son servidores web populares en Linux. Se encargan de recibir y responder solicitudes HTTP, permitiendo la entrega de páginas web y aplicaciones en línea.
+
